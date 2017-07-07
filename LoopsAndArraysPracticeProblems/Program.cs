@@ -96,20 +96,36 @@ namespace LoopsAndArraysPracticeProblems
             //HOMEWORK PROBLEM #3
             //Create an array of your favorite movies.Print out each movie in the list, unless the move starts with a vowel. 
             //Hint: Research.startsWith()
-            string[] favMovies = { "Pride & Prejudice", "The Transporter", "Avatar", "The Hobbit", "Woman in Black" };
-            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
-            foreach (string movieTitle in favMovies)
-            {
-                if (movieTitle.StartsWith(vowels))
-                {
+            //string[] favMovies = { "Pride & Prejudice", "The Transporter", "Avatar", "The Hobbit", "Woman in Black" };
+            //foreach (string movie in favMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+            //}
 
-                }
-            }
-            return true;
-
-            Console.WriteLine("==================");
-
-
+            //Console.WriteLine("==================");
 
             //HOMEWORK #4
             //Write a console application that asks the user for an integer. 
@@ -126,7 +142,7 @@ namespace LoopsAndArraysPracticeProblems
             //    }
             //    else 
             //    {
-            //        Console.WriteLine("You Lost!");
+            //        Console.WriteLine("You Lost.");
             //        Console.WriteLine("Please enter another integer:");
             //        Console.ReadLine();
             //    }

@@ -148,6 +148,18 @@ namespace LoopsAndArraysPracticeProblems
             //    }
             //}
 
+            //or
+            //Console.WriteLine("Please enter an integer (whole number):");
+            //int userNum = int.Parse(Console.ReadLine());
+            //while (userNum % 3 != 0)
+            //{
+            //   Console.WriteLine("You Lost.");
+            //   Console.WriteLine("Please enter another integer (whole number):");
+            //   userNum = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("You won!");
+
+
             //Console.WriteLine("==================");
 
 
